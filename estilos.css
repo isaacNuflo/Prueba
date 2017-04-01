@@ -1,0 +1,52 @@
+/* relaciona al todo el documento*/
+/*body {
+	background: #fff;
+	color: #000000;
+}*/
+
+/* * {
+	margin: 0;
+	padding: 0;
+	color: blue;
+} */
+
+h1,h2 {
+	color:blue;
+}
+
+h1 {
+	font-size: 30px;
+	background: #1E45D5;
+	color: #fff;
+	width: 30%;
+}
+
+h2 {
+	font-size: 20px;
+	background: rgb(30,69,213);
+	color: #fff;
+	width: 15%
+
+}
+div{
+	color: black;
+	font-size: 1rem;  /* 1em vale el valor del tamano del body o del padre*/
+	width: 1000px;
+	background: skyblue;
+	margin: 30px 40px;
+	padding: 30px;	/* padding + ela medida del width y height*/
+	border: 5px solid #000;
+	display: inline-block;
+}
+.cita {
+	color: black;
+}
+
+a[href="https://www.google.com.pe"] {
+	color: skyblue;
+	font-size: 20px;
+}
+a[href="https://www.youtube.com/"] {
+	color: green;
+	font-size: 20px;
+}
